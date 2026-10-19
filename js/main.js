@@ -51,8 +51,9 @@
 
   /* Fade-in on scroll */
   var fadeElements = document.querySelectorAll(
-    '.section-title, .section-subtitle, .about-grid, .skills-grid, ' +
-    '.project-card, .timeline-item, .edu-grid, .certs, .contact-grid, .hero-content > *'
+    '.section-eyebrow, .section-title, .section-subtitle, .about-grid, .skills-grid, ' +
+    '.pipeline-step, .project-card, .timeline-item, .edu-grid, .certs, .contact-grid, ' +
+    '.hero-content > *, .hero-visual, .demo-strip-inner'
   );
 
   fadeElements.forEach(function (el) {

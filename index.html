@@ -8,7 +8,10 @@
   <title>Maneesh Raja Pagadala | Data Analyst</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <meta property="og:title" content="Maneesh Raja Pagadala | Data Analyst Portfolio">
+  <meta property="og:description" content="End-to-end analytics: dashboards, predictive models, and AI-powered reporting. Python, SQL, Power BI.">
+  <meta property="og:type" content="website">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -31,50 +34,85 @@
 
   <header class="hero" id="hero">
     <div class="hero-bg"></div>
-    <div class="container hero-content">
-      <div class="hero-badge">Open to Data Analyst &amp; Data Scientist roles</div>
-      <h1>Maneesh Raja <span class="accent">Pagadala</span></h1>
-      <p class="hero-tagline">Transforming raw data into actionable business insights</p>
-      <p class="hero-summary">
-        Graduate student (M.S. Computer Science, 3.9 GPA) with hands-on experience in Python, SQL, and Power BI.
-        I build predictive models, ETL pipelines, and dashboards that help teams make faster, data-driven decisions.
-      </p>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-value">3.9</span>
-          <span class="stat-label">GPA</span>
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="container hero-layout">
+      <div class="hero-content">
+        <div class="hero-badge"><span class="pulse-dot"></span> Open to Data Analyst &amp; Data Scientist roles</div>
+        <h1>Maneesh Raja <span class="accent">Pagadala</span></h1>
+        <p class="hero-tagline">Data analyst who ships dashboards, models, and reports stakeholders actually use</p>
+        <p class="hero-summary">
+          M.S. Computer Science candidate (3.9 GPA) at UNT. I take messy operational data through cleaning and ETL,
+          find root causes in EDA, build leak-free predictive models, and deliver live dashboards plus plain-English
+          reporting — including agentic weekly ops summaries.
+        </p>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value" data-count="180">180K+</span>
+            <span class="stat-label">Shipments Analyzed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">3.9</span>
+            <span class="stat-label">GPA</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">92%</span>
+            <span class="stat-label">Classification Accuracy</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">20%</span>
+            <span class="stat-label">Reporting Time Saved</span>
+          </div>
         </div>
-        <div class="stat">
-          <span class="stat-value">92%</span>
-          <span class="stat-label">Model Accuracy</span>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          <a href="https://github.com/Maneeshraja19" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
         </div>
-        <div class="stat">
-          <span class="stat-value">20%</span>
-          <span class="stat-label">Reporting Time Saved</span>
-        </div>
-        <div class="stat">
-          <span class="stat-value">0.86</span>
-          <span class="stat-label">ROC-AUC (ChurnIQ)</span>
+        <div class="hero-contact">
+          <span>Denton, TX</span>
+          <span class="dot">·</span>
+          <a href="mailto:manpagadala@gmail.com">manpagadala@gmail.com</a>
+          <span class="dot">·</span>
+          <a href="tel:+16824063734">+1 (682) 406-3734</a>
         </div>
       </div>
-      <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">View My Work</a>
-        <a href="https://github.com/Maneeshraja19" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
-        <a href="https://www.linkedin.com/in/maneesh-raja-pagadala-624777232" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LinkedIn</a>
-      </div>
-      <div class="hero-contact">
-        <span>Denton, TX</span>
-        <span class="dot">·</span>
-        <a href="mailto:manpagadala@gmail.com">manpagadala@gmail.com</a>
-        <span class="dot">·</span>
-        <a href="tel:+16824063734">+1 (682) 406-3734</a>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-panel">
+          <div class="hero-panel-header">
+            <span class="panel-dot"></span><span class="panel-dot"></span><span class="panel-dot"></span>
+            <span class="panel-title">Analytics snapshot</span>
+          </div>
+          <div class="hero-panel-body">
+            <div class="mini-kpi-row">
+              <div class="mini-kpi"><span class="mini-kpi-label">Delay risk model</span><span class="mini-kpi-val">PR-AUC 0.843</span></div>
+              <div class="mini-kpi"><span class="mini-kpi-label">Churn model</span><span class="mini-kpi-val">ROC-AUC 0.86</span></div>
+            </div>
+            <div class="chart-bars">
+              <div class="bar" style="--h: 88%"><span>Logistics</span></div>
+              <div class="bar" style="--h: 72%"><span>Telecom</span></div>
+              <div class="bar" style="--h: 55%"><span>BI KPIs</span></div>
+              <div class="bar" style="--h: 48%"><span>Jobs NLP</span></div>
+            </div>
+            <p class="hero-panel-caption">Live Streamlit dashboards · Power BI · AI-generated ops reports</p>
+          </div>
+        </div>
       </div>
     </div>
   </header>
 
+  <div class="demo-strip">
+    <div class="container demo-strip-inner">
+      <span class="demo-strip-label">Live demos</span>
+      <a href="https://inbound-delay-agentic-reporting-maneeshraja.streamlit.app/" target="_blank" rel="noopener noreferrer" class="demo-chip">Inbound Delay Dashboard</a>
+      <a href="https://churniq-maneesh.streamlit.app" target="_blank" rel="noopener noreferrer" class="demo-chip">ChurnIQ</a>
+      <a href="https://github.com/Maneeshraja19/job-market-intelligence" target="_blank" rel="noopener noreferrer" class="demo-chip demo-chip-muted">Job Market Intel (WIP)</a>
+    </div>
+  </div>
+
   <main>
     <section class="section" id="about">
       <div class="container">
+        <p class="section-eyebrow">About</p>
         <h2 class="section-title">About Me</h2>
         <div class="about-grid">
           <div class="about-text">
@@ -92,19 +130,19 @@
           </div>
           <div class="about-highlights">
             <div class="highlight-card">
+              <div class="highlight-icon">🚚</div>
+              <h3>Supply Chain &amp; Ops Analytics</h3>
+              <p>180K+ shipment records — root-cause delay analysis, risk models, and agentic weekly reporting for planners.</p>
+            </div>
+            <div class="highlight-card">
               <div class="highlight-icon">📊</div>
               <h3>Business Intelligence</h3>
-              <p>Power BI dashboards tracking 12+ KPIs with drill-down reporting for executive teams.</p>
+              <p>Power BI &amp; Streamlit dashboards tracking KPIs with drill-down views for leadership and ops teams.</p>
             </div>
             <div class="highlight-card">
               <div class="highlight-icon">🤖</div>
-              <h3>Predictive Analytics</h3>
-              <p>Built churn prediction (ROC-AUC 0.86) and classification models with 92% accuracy.</p>
-            </div>
-            <div class="highlight-card">
-              <div class="highlight-icon">🔍</div>
-              <h3>Market Intelligence</h3>
-              <p>NLP-powered analysis of 300+ real job postings for skill and salary insights.</p>
+              <h3>Predictive &amp; AI Reporting</h3>
+              <p>Churn and delay classifiers plus LLM layers that turn model output into stakeholder-ready narratives.</p>
             </div>
           </div>
         </div>
@@ -113,6 +151,7 @@
 
     <section class="section section-alt" id="skills">
       <div class="container">
+        <p class="section-eyebrow">Toolkit</p>
         <h2 class="section-title">Technical Skills</h2>
         <p class="section-subtitle">Tools and methods I use to deliver end-to-end analytics solutions</p>
         <div class="skills-grid">
@@ -128,7 +167,7 @@
             <h3>Languages &amp; Libraries</h3>
             <div class="skill-tags">
               <span>Python</span><span>Pandas</span><span>NumPy</span>
-              <span>Scikit-learn</span><span>SQL</span><span>spaCy</span>
+              <span>Scikit-learn</span><span>XGBoost</span><span>SQL</span><span>spaCy</span><span>Streamlit</span>
             </div>
           </div>
           <div class="skill-category">
@@ -151,10 +190,75 @@
       </div>
     </section>
 
+    <section class="section section-pipeline">
+      <div class="container">
+        <p class="section-eyebrow">Process</p>
+        <h2 class="section-title">How I Deliver Analytics</h2>
+        <p class="section-subtitle">The same end-to-end flow recruiters expect — from raw data to decisions on a dashboard</p>
+        <ol class="pipeline">
+          <li class="pipeline-step">
+            <span class="pipeline-num">01</span>
+            <h3>Ingest &amp; clean</h3>
+            <p>Validate targets, fix types, join sources, and document assumptions (ETL + SQL).</p>
+          </li>
+          <li class="pipeline-step">
+            <span class="pipeline-num">02</span>
+            <h3>Explore &amp; explain</h3>
+            <p>EDA and KPI cuts that isolate root causes — not just correlations on slides.</p>
+          </li>
+          <li class="pipeline-step">
+            <span class="pipeline-num">03</span>
+            <h3>Model responsibly</h3>
+            <p>Time-aware splits, leak-free features, and honest baselines (LR vs. XGBoost, etc.).</p>
+          </li>
+          <li class="pipeline-step">
+            <span class="pipeline-num">04</span>
+            <h3>Ship &amp; report</h3>
+            <p>Live dashboards (Streamlit / Power BI) plus plain-English or agent-generated summaries.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
     <section class="section" id="projects">
       <div class="container">
+        <p class="section-eyebrow">Portfolio</p>
         <h2 class="section-title">Featured Projects</h2>
-        <p class="section-subtitle">End-to-end analytics work with measurable impact — click through to explore live demos and code</p>
+        <p class="section-subtitle">End-to-end analytics with live demos, repos, and metrics you can verify</p>
+
+        <article class="project-card featured spotlight">
+          <div class="project-header">
+            <div>
+              <span class="project-badge complete">Complete · Flagship</span>
+              <h3>Inbound Logistics Delay — Root Cause &amp; Agentic Reporting</h3>
+              <p class="project-domain">Supply Chain · Predictive Analytics · AI Reporting</p>
+            </div>
+            <div class="project-links">
+              <a href="https://inbound-delay-agentic-reporting-maneeshraja.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Live Dashboard</a>
+              <a href="https://github.com/Maneeshraja19/inbound-delay-agentic-reporting" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            Full pipeline on DataCo supply chain data: diagnose why inbound shipments run late, predict delay risk
+            before dispatch, and auto-generate weekly ops reports via an AI agent (numbers pre-computed, narrative
+            generated). Includes public Streamlit dashboard and Power BI assets in the repo.
+          </p>
+          <div class="project-metrics">
+            <div class="metric"><strong>180K+</strong> Shipment Records</div>
+            <div class="metric"><strong>0.843</strong> PR-AUC (XGBoost)</div>
+            <div class="metric"><strong>95%</strong> Label Validation</div>
+          </div>
+          <ul class="project-bullets">
+            <li>Found delivery-promise scheduling — not region or season — as the primary lateness driver; model feature importance confirmed the same signal</li>
+            <li>Time-based 80/20 train/test split with leak-free features; Logistic Regression baseline PR-AUC 0.842</li>
+            <li>Deployed interactive Streamlit dashboard; Power BI version included for desktop stakeholders</li>
+            <li>AI agent (Gemini) turns pre-computed weekly stats into plain-English root-cause reports for planners</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>Pandas</span><span>XGBoost</span><span>Scikit-learn</span>
+            <span>Streamlit</span><span>Power BI</span><span>Gemini API</span><span>ETL</span>
+          </div>
+        </article>
 
         <article class="project-card featured">
           <div class="project-header">
@@ -252,6 +356,7 @@
 
     <section class="section section-alt" id="experience">
       <div class="container">
+        <p class="section-eyebrow">Experience</p>
         <h2 class="section-title">Professional Experience</h2>
         <div class="timeline">
           <article class="timeline-item">
@@ -294,6 +399,7 @@
 
     <section class="section" id="education">
       <div class="container">
+        <p class="section-eyebrow">Background</p>
         <h2 class="section-title">Education &amp; Certifications</h2>
         <div class="edu-grid">
           <div class="edu-card">
@@ -351,8 +457,18 @@
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>&copy; 2026 Maneesh Raja Pagadala. Built with HTML, CSS &amp; JavaScript.</p>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">MR<span class="accent">.</span></span>
+        <p>Data Analyst · Python · SQL · Power BI</p>
+      </div>
+      <div class="footer-links">
+        <a href="#projects">Projects</a>
+        <a href="https://github.com/Maneeshraja19" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/maneesh-raja-pagadala-624777232" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:manpagadala@gmail.com">Email</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Maneesh Raja Pagadala</p>
     </div>
   </footer>
 

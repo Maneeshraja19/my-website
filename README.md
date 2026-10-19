@@ -52,6 +52,8 @@ my-website/
 
 | Project | Link |
 |---------|------|
+| Inbound Delay (Live) | https://inbound-delay-agentic-reporting-maneeshraja.streamlit.app/ |
+| Inbound Delay (Code) | https://github.com/Maneeshraja19/inbound-delay-agentic-reporting |
 | ChurnIQ (Live) | https://churniq-maneesh.streamlit.app |
 | ChurnIQ (Code) | https://github.com/Maneeshraja19/churniq |
 | Job Market Intelligence | https://github.com/Maneeshraja19/job-market-intelligence |
