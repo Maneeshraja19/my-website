@@ -4,9 +4,13 @@ Personal portfolio site targeting **Data Analyst** and **Data Scientist** roles.
 
 ## Live Site
 
-After deploying to GitHub Pages, your site will be available at:
+After GitHub Pages finishes building (1–5 minutes), your site is at:
 
 **https://maneeshraja19.github.io/my-website/**
+
+> Use this full URL on your resume. `https://maneeshraja19.github.io/` alone is only for a repo named `Maneeshraja19.github.io`.
+
+When deploy succeeds, the Pages settings page shows a green banner: **“Your site is live at …”** and a **Visit site** button.
 
 ## Local Preview
 
